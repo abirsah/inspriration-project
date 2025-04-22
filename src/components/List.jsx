@@ -4,7 +4,7 @@ const List = ({text,className}) => {
   return (
 
 
-    <li className={`font-inter bg-red-500 list-none text-[14px] font-medium text-first ${className}`}>{text}</li>
+    <li className={`font-inter list-none text-[14px] font-medium text-first ${className}`}>{text}</li>
 
 
 )
