@@ -26,9 +26,8 @@ const Navber = () => {
 
 
               <div className='w-3/12'>
-              <Flex className="gap-x-2">
-                   <button className='text-sm text-[#F9FAFB] font-inter font-medium bg-[#f9fafb40] py-3 px-6 rounded- 
- [5px] hover:bg-[#2563EB] duration-500'>Login</button>
+              <Flex className="gap-x-2 justify-end">
+                   <button className='text-sm text-[#F9FAFB] font-inter font-medium bg-[#f9fafb40] py-3 px-6 rounded-[5px] hover:bg-[#2563EB] duration-500'>Login</button>
 
                    <button className='text-sm text-[#F9FAFB] font-inter font-medium bg-[#f9fafb40] py-3 px-6 rounded-[5px] hover:bg-[#2563EB] duration-500'>Sign up</button>
 
@@ -45,3 +44,5 @@ const Navber = () => {
 }
 
 export default Navber
+
+
